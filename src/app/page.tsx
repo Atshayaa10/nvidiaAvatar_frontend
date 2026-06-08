@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import KalturaWidget from "../components/KalturaWidget";
 import { Power, Lock, CloudUpload } from "lucide-react";
 
 const slides = [
@@ -118,7 +117,6 @@ export default function Home() {
         </div>
       </section>
 
-      <KalturaWidget />
     </main>
   );
 }
